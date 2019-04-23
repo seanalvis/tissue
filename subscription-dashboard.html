@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Tissue - Issue Tracking</title>
+    <link rel="stylesheet" href="stylesheets/styles.css">
+    
+</head>
+<body>
+    <div class="wrapper-body">
+        <header>
+        <p class="logo-header">Tissue - Issue Tracking</h1>
+            <nav class="nav-header">
+                <ul class="nav-list">
+                    <li class="nav-list-item">
+                        <a class="nav-link" href="index.html">Home</a>
+                    </li>
+                    <li class="nav-list-item">
+                        <a class="nav-link" href="issue.html">Issues</a>
+                    </li>
+                    <li class="nav-list-item">
+                        <a class="nav-link" href="subscription-dashboard.html">Subscription Dashboard</a>
+                    </li>
+                </ul>
+            </nav>
+    </header>
+
+    <main>
+        <div id="graph" class="">
+                <!-- The bar graph is added here dynamically. -->
+        </div>
+
+        <button onclick="clearGraph()" class="btn btn-reset">Reset</button>
+    </main>
+
+    <footer>
+        <p>&copy 2019 Tissue Issues</p>
+    </footer>
+</div>
+
+</body>
+<script src="data/subscriber-data.js"></script>
+<script src="scripts/tissue.js"></script>
+<script src="scripts/subscription-graph.js"></script>
+</html>

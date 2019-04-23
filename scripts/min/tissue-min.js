@@ -1,0 +1,1 @@
+"script";function login(){var e=document.getElementById("username");e=e.value;var n=document.getElementById("password");n=n.value,"admin@tissue.com"===e&&"admin123"===n?(e="",n="",window.location.href="subscription-dashboard.html"):(e="",n="",alert("Invalid Credentials"))}
